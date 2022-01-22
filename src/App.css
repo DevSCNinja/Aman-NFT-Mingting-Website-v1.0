@@ -1,0 +1,62 @@
+.customer-dashboard {
+  min-height: 100vh;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-dark {
+  background-color: #16171b !important;
+}
+
+.box-shadow {
+  border: 1px solid #2abfff;
+  box-shadow: 0 0 10px 10px rgb(23 162 184 / 17%);
+}
+
+.header-box-shadow {
+  box-shadow: 0 0 5px 5px #000;
+  filter: contrast(1);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #2abfff;
+  border-color: #2abfff;
+}
+
+.bg-primary {
+  background-color: #2abfff !important;
+}
+
+.text-primary {
+  color: #2abfff !important;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+.left-image {
+  position: fixed;
+  background-image: url('/src/img/left.svg');
+  width: 23vw;
+  height: 60vh;
+  filter: contrast(.5);
+  background-size: 100% 100%;
+}
+
+.right-image {
+  position: fixed;
+  background-image: url('/src/img/right.svg');
+  right: 0;
+  bottom: 0;
+  width: 20vw;
+  height: 50vh;
+  filter: contrast(.5);
+  background-size: 100% 100%;
+}
